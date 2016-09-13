@@ -5,10 +5,14 @@
  */
 package com.example.Studentpayment.stuinterface;
 
+import com.example.Studentpayment.entity.Student;
+import java.util.List;
+
 /**
  *
  * @author HOME
  */
 public interface StudentRecDao {
-    
+   boolean add(Student student);
+   List<Student> getall();
 }
