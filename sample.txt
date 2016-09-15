@@ -1,0 +1,5 @@
+1,Kripesh,lamichhane,kripesh@gmail.com,20000,10000
+2,Ram,Thapa,ram@gmail.com,20000,5000
+3,Mohan,Ghimire,mohan@gmail.com,20000,1000
+4,Manish,Thapa,manish@lepfrog.academy,20000,5000
+5,Sangarsha,Chaulagain,sanju.temp@gmail.com,20000,1000
