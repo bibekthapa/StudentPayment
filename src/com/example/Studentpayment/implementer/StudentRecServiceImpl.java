@@ -15,10 +15,12 @@ import java.util.List;
  * @author HOME
  */
 public class StudentRecServiceImpl implements StudentRecordService {
-            StudentRecDao std=new StudentRecDaoImpl();
+
+    StudentRecDao std = new StudentRecDaoImpl();
+
     @Override
     public boolean add(Student student) {
-       return std.add(student);
+        return std.add(student);
     }
 
     @Override
@@ -30,5 +32,5 @@ public class StudentRecServiceImpl implements StudentRecordService {
     public List<Student> getall() {
         return std.getall();
     }
-    
+
 }
