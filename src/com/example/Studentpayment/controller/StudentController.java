@@ -73,7 +73,7 @@ public class StudentController {
         StudentPaymentService stdPayService = new StudentPaymentServiceImpl();
         for (Student s : stdservice.getall()) {
            
-            System.out.println(stdPayService.remAmount(s));
+            System.out.println("Rem Amount of"+" "+s.getFirstName()+" "+"is"+" "+stdPayService.remAmount(s));
         }
     }
 }
